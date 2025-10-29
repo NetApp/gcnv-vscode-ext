@@ -4,7 +4,7 @@
 
 A VS Code extension that brings Google Cloud NetApp Volumes (GCNV) storage management directly into your development environment. Manage storage resources, generate templates, and get AI-powered recommendations without leaving VS Code.
 
-[![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/items?itemName=netapp.google-cloud-netapp-volumes)
+[![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/items?itemName=NetApp.gcnv-vscode-extension)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/NetApp/gcnv-vscode-ext/blob/main/LICENSE)
 [![Version](https://img.shields.io/badge/Version-1.0.0-orange)](https://marketplace.visualstudio.com/items?itemName=netapp.google-cloud-netapp-volumes)
 
@@ -33,7 +33,7 @@ A VS Code extension that brings Google Cloud NetApp Volumes (GCNV) storage manag
 
 - **VS Code**: Version 1.77.0 or higher
 - **Google Cloud Account**: With access to GCNV
-- **API Enablement and IAM Permissions**: Google API, Google compute API and Cloud Resource Manager API enabled under “APIs & Services”. Under “IAM & Admin / IAM” in Google Cloud, your email has “Owner” and “Service Usage Admin” roles 
+- **API Enablement and IAM Permissions**: Google API, Google compute API and Cloud Resource Manager API enabled under “APIs & Services”. Under “IAM & Admin / IAM” in Google Cloud, your email has “Owner” and “Service Usage Admin” roles
 - **GitHub Copilot**: For AI-powered chat features (optional but recommended)
 
 ## Installation
