@@ -33,7 +33,7 @@ A VS Code extension that brings Google Cloud NetApp Volumes (GCNV) storage manag
 
 - **VS Code**: Version 1.77.0 or higher
 - **Google Cloud Account**: With access to GCNV
-- **API Enablement and IAM Permissions**: Google API, Google compute API and Cloud Resource Manager API enabled under “APIs & Services”. Under “IAM & Admin / IAM” in Google Cloud, your email has “Owner” and “Service Usage Admin” roles 
+- **API Enablement and IAM Permissions**: Google API, Google compute API and Cloud Resource Manager API enabled under “APIs & Services”. Under “IAM & Admin / IAM” in Google Cloud, your email has “Owner” and “Service Usage Admin” roles
 - **GitHub Copilot**: For AI-powered chat features (optional but recommended)
 
 ## Installation
