@@ -4,7 +4,7 @@
 
 A VS Code extension that brings Google Cloud NetApp Volumes (GCNV) storage management directly into your development environment. Manage storage resources, generate templates, and get AI-powered recommendations without leaving VS Code.
 
-[![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/items?itemName=netapp.google-cloud-netapp-volumes)
+[![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/items?itemName=NetApp.gcnv-vscode-extension)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/NetApp/gcnv-vscode-ext/blob/main/LICENSE)
 [![Version](https://img.shields.io/badge/Version-1.0.0-orange)](https://marketplace.visualstudio.com/items?itemName=netapp.google-cloud-netapp-volumes)
 
