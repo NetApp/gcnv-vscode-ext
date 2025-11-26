@@ -60,4 +60,4 @@ All authentication tokens are stored securely in VS Code's secret storage on you
 **Third-Party Services:**
 This extension communicates directly with Google Cloud APIs. No data is sent to NetApp servers.
 
-For more information, see [NetApp's Privacy Policy](https://www.netapp.com/company/legal/privacy-policy/).
+For more information, see [Google Cloud Privacy Policy](https://cloud.google.com/terms/cloud-privacy-notice).
