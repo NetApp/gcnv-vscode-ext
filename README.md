@@ -44,3 +44,20 @@ A VS Code extension that brings Google Cloud NetApp Volumes (GCNV) storage manag
 2. Go to Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
 3. Search for "Google Cloud NetApp Volumes"
 4. Click **Install**
+
+## Security Disclosures
+
+This extension requires access to your Google Cloud account to manage Google Cloud NetApp Volumes resources.
+
+**Information We Access:**
+- Google Account Email - to identify the authenticated user
+- Google Cloud Projects - to list and display your GCNV resources  
+- GCNV Resources - to display and manage your volumes, pools, and snapshots
+
+**Data Storage:**
+All authentication tokens are stored securely in VS Code's secret storage on your local machine. We do not transmit or store your data on external servers.
+
+**Third-Party Services:**
+This extension communicates directly with Google Cloud APIs. No data is sent to NetApp servers.
+
+For more information, see [NetApp's Privacy Policy](https://www.netapp.com/company/legal/privacy-policy/).
