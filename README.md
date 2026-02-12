@@ -27,20 +27,19 @@ A VS Code extension that brings Google Cloud NetApp Volumes (GCNV) storage manag
 
 ### Developer/Devops Experience
 - **Zero Context Switching**: Everything happens in VS Code
-- **Natural Language Commands**: Use plain English to list resources, analyze volumes, generate templates, and run operations—powered by MCP (Model Context Protocol) tool integration
 
-## Natural Language Commands & MCP Integration
+### Natural Language Commands & MCP Integration
 
 The extension uses **MCP (Model Context Protocol)** integration so the AI can call GCNV tools on your behalf. When you use the **@gcnv** chat participant, your requests are fulfilled by a mix of **MCP tools** (for discovery and live data) and **direct API calls** (for analysis and actions).
 
-### How It Works
+#### How It Works
 
 - **MCP tools** – The chat participant can invoke tools such as `gcnv_list_volumes`, `gcnv_list_pools`, `gcnv_get_metrics`, and others to fetch real-time data from your GCP project.
 - **Direct API + context** – For the selected resource in the explorer, the extension uses direct API calls and collected context for analysis, templates, and mount scripts.
 
 **Flow:** Chat request → GCNV Chat Participant → MCP service (tool execution) or direct API → GCNVService → Google Cloud APIs → Response in chat.
 
-### Natural Language Commands (Examples)
+#### Natural Language Commands (Examples)
 
 **Discovery (no resource selection; uses MCP tools):**
 - *"List all volumes"* / *"Show all storage pools"* / *"List all networks"*
@@ -55,7 +54,7 @@ The extension uses **MCP (Model Context Protocol)** integration so the AI can ca
 **Utility:**
 - *"Show me our conversation history"* / *"Clear history"*
 
-### MCP Tool Categories (Summary)
+#### MCP Tool Categories (Summary)
 
 | Category | Example tools | Use for |
 |----------|----------------|--------|
