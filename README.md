@@ -99,3 +99,15 @@ All authentication tokens are stored securely in VS Code's secret storage on you
 This extension communicates directly with Google Cloud APIs. No data is sent to NetApp servers.
 
 For more information, see [Google Cloud Privacy Policy](https://cloud.google.com/terms/cloud-privacy-notice).
+
+## 🎉 New Features
+
+---
+
+### Version 1.0.2
+
+- **MCP Integration**: @gcnv chat uses **Model Context Protocol (MCP)** to call GCNV tools—real-time data via MCP tools plus direct API for analysis and actions.
+- **Natural Language Commands** (MCP-backed, new in 1.0.2): Discovery and live data in chat, no resource selection:
+  - **Discovery**: "List all volumes", "Show all storage pools", "List all networks", "What projects do I have?", "List available regions"
+  - **Metrics & network**: "Get metrics for volume &lt;name&gt;", "Check peering for network &lt;name&gt;"
+- **MCP tool coverage**: Volumes, pools, snapshots, networks, projects & regions, and performance metrics exposed to chat via MCP.
